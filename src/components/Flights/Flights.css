@@ -1,0 +1,21 @@
+/* Flights.css */
+.flight-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .flight-table th,
+  .flight-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .flight-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .flight-table .flight-item:nth-child(even) {
+    background-color: #f9f9f9;
+  }
